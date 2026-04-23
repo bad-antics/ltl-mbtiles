@@ -1,0 +1,15 @@
+// ltl-mbtiles/main.ltl
+//
+// MBTiles (SQLite-backed tile-set) reader.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-mbtiles v0.1.0")
+    io::println("MBTiles (SQLite-backed tile-set) reader.")
+    0
+}
